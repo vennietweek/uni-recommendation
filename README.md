@@ -1,6 +1,6 @@
-# University Recommendation System using US College Scorecard Dataset
+## University Recommendation System using US College Scorecard Dataset
 
-## Project Information
+### Project Information
 
 This was a school project done for my Fundamentals of Data Analytics course. We were tasked to use the US College Scorecard dataset.
 
@@ -14,20 +14,21 @@ I collaborated with @lmngxn on this project, who did the bulk of the data prepro
 
 Project report: [IT5006 Project Report.pdf](https://github.com/vennietweek/uni-recommendation/files/13748350/IT5006.Project.Report.pdf)
 
-## Objective
+### Objective
 
-Develop a recommendation engine to help students make better-informed decisions on their higher education options. 
+Help students make better-informed decisions on their higher education options. 
 
-## Outcomes
+### Outcomes
 
 Our recommendation engine takes in a student’s profile, which includes their SAT scores, race, family income, desired field of study, desired region and desired locale, and provides a list of recommended universities that best fit their profiles, as well as their projected earnings from this selection of schools.
 
-## Dataset
+### Dataset
 
 We used data from the College Scorecard dataset, which contains a wide range of information on colleges and universities in the United States. Their are two main datasets, the School and Student dataset. https://collegescorecard.ed.gov/
 
-## Approach
+### Approach
 Our main challenge was in matching the disparate 'School' and 'Student' datasets, as both contained different data fields.
+
 <img width="1172" alt="Screenshot 2023-10-12 at 8 44 40 PM" src="https://github.com/vennietweek/uni-recommendation/assets/19652161/a1f63545-5249-41b8-be0a-7b8e41d32ef6">
 
 1. **Train a regression model using university-specific data to predict earnings**: We first train a regression model using university-specific data i.e. the ‘School’ dataset, with earnings as the target. Features include Admission Rate, Average SAT score, Completion rate, Demographics (Percentage of each race in institution), Parents’ education, Full-time Faculty Rate, Expenditures per student, Faculty salary, Locale and Region. The regression model will thus be built based on all the colleges within the dataset.
