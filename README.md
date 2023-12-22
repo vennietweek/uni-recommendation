@@ -4,13 +4,13 @@
 
 This was a school project done for my Fundamentals of Data Analytics course. We were tasked to use the US College Scorecard dataset.
 
-I collaborated with @lmngxn on this project, who did a large portion of the data preprocessing, regression model selection and testing, and refinement of the recommendation system.
-
 My main contributions:
 * Ideating on how we would use the US College Scorecard dataset, coming up with the objectives and requirements of the recommendation system
 * Formulating the 2-step model approach to work with how the data was structured. We first used an unsupervised classification model to predict schools a student can consider based on their profile, then used a regression model to predict earnings based on the aggregated feature vectors of the schools. More details are below.
 * Helping with data preprocessing (including feature encoding and scaling) and exploratory data analysis (feature correlation analysis, data visualisations)
 * Training the classification model and building the foundations for the recommendation system
+
+I collaborated with @lmngxn on this project, who did the bulk of the data preprocessing, model selection and testing, and refinement of the recommendation system.
 
 Project report: [IT5006 Project Report.pdf](https://github.com/vennietweek/uni-recommendation/files/13748350/IT5006.Project.Report.pdf)
 
